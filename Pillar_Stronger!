@@ -1,21 +1,37 @@
 Maturity
 
-Duration = weighted average maturity of CashFlow from a Bond = sum PV(CF)/BondValue
-  dPrice/dInterestRate = Bond Price interest rate sensitivity
-MacaulayDuration = time-weighted average maturity of CashFlow from a Bond = sum( Time*PV(CF) )/BondValue 
-  coupon bond < Maturity
-  zero coupon bond = maturity
-ModifiedDuration = MacaulayDuration/(1+YTM/k), k=compounding frequency
-  dP/dYTM =- ModifiedDuration *dYTM
-MoneyDuration
-PriceValue of a basis point
- 
-EffectorDuration = take into account optionality, or use Market Price = (dP/P)/(dr/100 basisPt)
-  Senstitity to a benchMarkYieldCurve
- 
+Bond = sum PV(CF), by spot rate
 
-Curvaxity
+Bond Risk factors = senstitiy to interest rate
+                  = sentitity to key rate shift
+                  = sentitivy + convexity
+                  = OAS
+                  
+Parallel Shift
+  Linear approximation
+    Duration = weighted average maturity of CashFlow from a Bond = sum PV(CF)/BondValue
+      % dPrice / dYield = (dPrice/Price) / (dYield) = -D,
+      dPrice = -D x Price x dYield
+      dInterestRate = Bond Price interest rate sensitivity
+    MacaulayDuration = time-weighted average maturity of CashFlow from a Bond = sum( Time*PV(CF)/BondValue )
+      coupon bond < Maturity
+      zero coupon bond = maturity
+    ModifiedDuration = MacaulayDuration/(1+YTM/k), k=compounding frequency
+      dP/dYTM =- ModifiedDuration *dYTM
+    MoneyDuration
+    PriceValue of a basis point
 
+    EffectorDuration = take into account optionality, or use Market Price = (dP/P)/(dr/100 basisPt)
+      Senstitity to a benchMarkYieldCurve
+  2nd degree approximation
+    Curvexity = positive for option free bond
+
+Key Rate Duration
+  % dPrice / dKeyRate = (dPrice/Price) / (dKeyRate) = -DKeyRate, e.g. any KeyRate at a maturity
+  dPrice/dKeyRate = -DkeyRate x Price = -DkeyRate x PV(CF)
+  DkeyRate = (dPrice/Price)/dKeyRate
+  
+Key Rate convexity
 
 coupon bond < Maturity
 zero coupon bond = maturity
@@ -23,7 +39,8 @@ dPrice/dInterestRate
 InterestRate risk risk = palleral shift, twist, curvature (PCA)
 
 Porfolio Team sheet: Slice and Dice
-  By Credting Rating: IG/ NIG, AAA, AA, A, BB, below BB, 
-  By Regional Exposure:
-  By Maturity: years
+  By Credting allocation: IG/ NIG, AAA, AA, A, BB, below BB, 
+  By Regional allocation: Asia, Europe, US, etc
+  By Maturity allocation: years
+  By Sector allocation: Gov, Corp, Muni, Quasi Gov
   By Security: Fixed, floating, others
