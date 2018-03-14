@@ -5,8 +5,8 @@ Bond = sum PV(CF), by spot rate
 Bond Risk factors = senstitiy to interest rate
                   = sentitity to key rate shift
                   = sentitivy + convexity
-                  = OAS
-                  
+                  = OAS option adjusted spread
+                 
 Parallel Shift
   Linear approximation
     Duration = weighted average maturity of CashFlow from a Bond = sum PV(CF)/BondValue
@@ -20,23 +20,18 @@ Parallel Shift
       dP/dYTM =- ModifiedDuration *dYTM
     MoneyDuration
     PriceValue of a basis point
-
+    Key Rate Duration
+      % dPrice / dKeyRate = (dPrice/Price) / (dKeyRate) = -DKeyRate, e.g. any KeyRate at a maturity
+      dPrice/dKeyRate = -DkeyRate x Price = -DkeyRate x PV(CF)
+      DkeyRate = (dPrice/Price)/dKeyRate
     EffectorDuration = take into account optionality, or use Market Price = (dP/P)/(dr/100 basisPt)
       Senstitity to a benchMarkYieldCurve
-  2nd degree approximation
+  2nd order approximation
     Curvexity = positive for option free bond
-
-Key Rate Duration
-  % dPrice / dKeyRate = (dPrice/Price) / (dKeyRate) = -DKeyRate, e.g. any KeyRate at a maturity
-  dPrice/dKeyRate = -DkeyRate x Price = -DkeyRate x PV(CF)
-  DkeyRate = (dPrice/Price)/dKeyRate
-  
-Key Rate convexity
 
 coupon bond < Maturity
 zero coupon bond = maturity
 dPrice/dInterestRate
-InterestRate risk risk = palleral shift, twist, curvature (PCA)
 
 Porfolio Team sheet: Slice and Dice
   By Credting allocation: IG/ NIG, AAA, AA, A, BB, below BB, 
@@ -44,3 +39,10 @@ Porfolio Team sheet: Slice and Dice
   By Maturity allocation: years
   By Sector allocation: Gov, Corp, Muni, Quasi Gov
   By Security: Fixed, floating, others
+
+Structural Note
+  Bond component (Major protection, some have principle protection) + derivative component (upside potential to some risk)
+  Return linked to equity/basket of equity/interest rate/commodities/FX
+  Complex
+  liqudity risk
+  
