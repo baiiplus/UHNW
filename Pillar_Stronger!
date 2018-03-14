@@ -1,0 +1,15 @@
+Maturity
+
+Duration = weighted average maturity of CashFlow from a Bond = sum PV(CF)/BondValue
+  dPrice/dInterestRate = Bond Price interest rate sensitivity
+
+MacaulayDuration
+  coupon bond < Maturity
+  zero coupon bond = maturity
+
+Curvaxity
+
+coupon bond < Maturity
+zero coupon bond = maturity
+dPrice/dInterestRate
+InterestRate risk risk = palleral shift, twist, curvature (PCA)
