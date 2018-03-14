@@ -1,7 +1,10 @@
-Equity-linked put option
+structuredNote
+Knock-Out bull equity-linked bull note (Basket and KO
 
-StructureNote: Knock-Out bull equity-basked-linked bull note
 Key Risk
+
 - Liquidity risk
-- Yield is relatively lower because strikes are basket-of-and conditioned and also due to the knock-out barrier
-- KnockOut features allow earlier redemption if basket-of-and prices move above strikes
+- Price is slightly higher relative to single-equity-linked because strikes are basket-of-and conditioned, which has a slighty lower probability due to lower correlation or diversification effect
+- Price is discounted/further due to the knock-out barrier, hence higher precepted yield (e.g. was 70% of spot price)
+- KnockOut features allow earlier 100% redemption if basket-of-and underlynig prices move above each strikes, each return is 30%
+- similar to sell put at the same time placing a deposit with the issuer(private bank)
