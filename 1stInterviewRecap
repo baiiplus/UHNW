@@ -1,10 +1,20 @@
-structuredNote
-Knock-Out bull equity-linked bull note (Basket and KO
-
+structuredNote: 
+Knock-Out bull equity-linked bull note (Basket and KO)
 Key Risk
-
 - Liquidity risk
 - Price is slightly higher relative to single-equity-linked because strikes are basket-of-and conditioned, which has a slighty lower probability due to lower correlation or diversification effect
 - Price is discounted/further due to the knock-out barrier, hence higher precepted yield (e.g. was 70% of spot price)
 - KnockOut features allow earlier 100% redemption if basket-of-and underlynig prices move above each strikes, each return is 30%
-- similar to sell put at the same time placing a deposit with the issuer(private bank)
+- similar to sell put at the same time and placing a deposit with the issuer(private bank)
+- Opportunities to capture discounted price with unlimited upside
+- Most profitable
+
+Fixed Income
+Bond
+Key Risk
+- Interest rate risk: Parallel shift, twist, curvative
+- Duration = senstivity of price to parallel change in yield/, Curvexity  = 2nd order senstivity of price to change in yield
+- Key Rate Duration matrix, = senstivity to change in rate on different maturity of the yield curve
+- Slice and dice of attribution and weighting allocation by
+  - 
+
