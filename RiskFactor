@@ -1,0 +1,31 @@
+FI
+  Market Key theme: US 10yr yield ~= 2.83%, from 2.4% Dec 17
+  Risk Factor
+    Interest Rate Risk
+      Parallel Shift(YTM)
+        Duration, 1st order approximation for % Price Change per 100 bp yield move (aka average time to investment back)
+          Macauley(Time weighted), Modificed (frequency adjusted)
+        Convexity, 2nd order approximation for % Price Change per 100 bp yield move
+        Effective Duration
+      Non Parallel Shift
+        Key Rate duration (i.e. any combination 1)twist, 2) curvative, and/or 3)parallel )
+    Liqudity Risk
+    Geopolitical Risk
+    Credit Risk
+    Spread Risk
+    Rating Risk
+    Default Risk
+  Attribution
+    
+
+Equity
+  Market risk = Systematic risk + Specific risk
+  Ccy risk
+
+StructureProduct
+
+PrivateEquity
+Derivatives
+FX
+
+Trend
