@@ -1,6 +1,9 @@
 FI
-  Market Key theme: US 10yr yield ~= 2.83%, from 2.4% Dec 17
-  Risk Factor
+  Market Key theme: 2018 
+    US 10yr yield ~= 2.83% 2018 Mar, from 2.4% Dec 17
+    Focus on how bond valuation will be stressed as yield approach 3% or different interest rate cycle.
+    Steepening of the tresury yield curve at the long end
+  Risk Factors
     Interest Rate Risk
       Parallel Shift(YTM)
         Duration, 1st order approximation for % Price Change per 100 bp yield move (aka average time to investment back)
@@ -8,19 +11,32 @@ FI
         Convexity, 2nd order approximation for % Price Change per 100 bp yield move
         Effective Duration
       Non Parallel Shift
-        Key Rate duration (i.e. any combination 1)twist, 2) curvative, and/or 3)parallel )
+        Key Rate duration (i.e. any combination 1)shift, 2)twist, 3) curvative,  empirical PCA conclude 1, is main risk)
     Liqudity Risk
     Geopolitical Risk
-    Credit Risk
+    Credit Risk(Defensive, )
     Spread Risk
     Rating Risk
     Default Risk
-  Attribution
+    Souverignce Risk
+    Yield Risk vs Inflation Risk
+    China policy, Brexit, Commodities, FX, Fed rate decision, Tax policy, Tariffc
+    Central banks
     
-
+  Allocation Weighting Dimensions (and/or of below)
+    By Credit Rating, By IG: HY, By rating AAA to Below BBB, cash & Equivalent, Not rated
+    By Duration
+    By Sector(Macro Economic factor)
+    By Government/Agency/InsuredCD/Muni/Corporate
+    By Region
+    By Tracking error/Active Managment
+    By Fix Rate/Floating Rate Note/MBA/Loan/EmergingMarket
+    
 Equity
   Market risk = Systematic risk + Specific risk
   Ccy risk
+  Dividend
+  Capital Growth
 
 StructureProduct
 
