@@ -2,14 +2,28 @@ Maturity
 
 Duration = weighted average maturity of CashFlow from a Bond = sum PV(CF)/BondValue
   dPrice/dInterestRate = Bond Price interest rate sensitivity
-
-MacaulayDuration
+MacaulayDuration = time-weighted average maturity of CashFlow from a Bond = sum( Time*PV(CF) )/BondValue 
   coupon bond < Maturity
   zero coupon bond = maturity
+ModifiedDuration = MacaulayDuration/(1+YTM/k), k=compounding frequency
+  dP/dYTM =- ModifiedDuration *dYTM
+MoneyDuration
+PriceValue of a basis point
+ 
+EffectorDuration = take into account optionality, or use Market Price = (dP/P)/(dr/100 basisPt)
+  Senstitity to a benchMarkYieldCurve
+ 
 
 Curvaxity
+
 
 coupon bond < Maturity
 zero coupon bond = maturity
 dPrice/dInterestRate
 InterestRate risk risk = palleral shift, twist, curvature (PCA)
+
+Porfolio Team sheet: Slice and Dice
+  By Credting Rating: IG/ NIG, AAA, AA, A, BB, below BB, 
+  By Regional Exposure:
+  By Maturity: years
+  By Security: Fixed, floating, others
