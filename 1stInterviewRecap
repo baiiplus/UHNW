@@ -1,13 +1,23 @@
 structuredNote: 
 Knock-Out bull equity-linked bull note (Basket and KO)
 Key Risk
-- Liquidity risk
+- Market risk of the underlyings, based on joined probability that of 3 equities move towards KO or move below initial discounted prices
+- Liquidity risk, usually held to maturity
+- Redemption risk, principle is not protected
 - Price is slightly higher relative to single-equity-linked because strikes are basket-of-and conditioned, which has a slighty lower probability due to lower correlation or diversification effect
 - Price is discounted/further due to the knock-out barrier, hence higher precepted yield (e.g. was 70% of spot price)
 - KnockOut features allow earlier 100% redemption if basket-of-and underlynig prices move above each strikes, each return is 30%
 - similar to sell put at the same time and placing a deposit with the issuer(private bank)
-- Opportunities to capture discounted price with unlimited upside
-- Most profitable
+- Opportunities to capture discounted prices with limited upside, with view prices will not fall below initial discounted prices
+Other common products
+- Constant proportion portfolio insurance (CPPI)
+- Interest rate-linked notes and deposits
+- Equity-linked notes and deposits
+- FX and commodity-linked notes and deposits
+- Hybrid-linked notes and deposits
+- Credit-linked notes and deposits
+- Constant proportion debt obligations (CPDOs)
+- Market-linked notes and deposits
 
 Fixed Income
 Bond
@@ -16,5 +26,11 @@ Key Risk
 - Duration = senstivity of price to parallel change in yield/, Curvexity  = 2nd order senstivity of price to change in yield
 - Key Rate Duration matrix, = senstivity to change in rate on different maturity of the yield curve
 - Slice and dice of attribution and weighting allocation by
-  - 
-
+  By Credting allocation: IG/ NIG, AAA, AA, A, BB, below BB, etc. 
+  By Regional allocation: Asia, Europe, US, etc
+  By Maturity or Duration allocation: years
+  By Sector allocation: Gov, Corp, Muni, Quasi Gov
+  By Security: Fixed, floating, others  
+  
+Foreight Exchange
+Currency Swap:
