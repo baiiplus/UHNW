@@ -40,5 +40,7 @@ Key Risk
 Foreight Exchange
 EuroDollar Yield Curve
 
+Swap = exchange of cash flows
+Interest Rate Swap = Series of FRA(Forward Rate Agreement)
 Currency Swap:
 fix-float, fix-fix, float-float, US Libor-UK Libor,
