@@ -42,6 +42,6 @@ EuroDollar Yield Curve
 
 Swap = exchange of cash flows
 Interest Rate Swap = Series of FRA(Forward Rate Agreement), notional not exchanged, Y=360D basis, floating rate prior period.
-Currency Swap: Notional value is swapped with spot exchange rate, interest is paid for loan in each currency, principles are returned.
+Currency Swap: Notional value is swapped with spot exchange rate, interest is paid for loan in each currency, principles are returned. No netting.
 fix-float, float-fix, fix-fix, float-float, US Libor-UK Libor,
 Equity Swap: Total return vs fix, total return vs floating, total return vs total return.
