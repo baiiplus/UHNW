@@ -45,3 +45,7 @@ Interest Rate Swap = Series of FRA(Forward Rate Agreement), notional not exchang
 Currency Swap: Notional value is swapped with spot exchange rate, interest is paid for loan in each currency, principles are returned. No netting.
 fix-float, float-fix, fix-fix, float-float, US Libor-UK Libor,
 Equity Swap: Total return vs fix, total return vs floating, total return vs total return.
+
+Libor-OIS(Overnight Indexed Swap) Spread (float-fix, +0.55%), Tightening of US dollars or Credit Rating
+Euribor Yield Curve
+Japan Yield Curve
